@@ -6,7 +6,6 @@
 ## **Description**
 This repository includes the source files for the Horiseon website homepage. 
 
-<!-- &nbsp; -->
 ### Repository Structure
 The website page structure is provided in `index.html`  and all webpage assets, including css styling and images, are included in the `assets` folder. 
 
