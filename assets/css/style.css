@@ -72,12 +72,12 @@ a {
 
 /* Hero Image */
 .hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+  width: 100%;
+  padding-top: min(66.67%, 800px);
+  margin-bottom: 25px;
 }
 
 /* Content Section */
