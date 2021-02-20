@@ -7,6 +7,7 @@
 /* html elements */
 body {
   background-color: #d9dcd6;
+  width: 100%;
 }
 
 p {
@@ -95,12 +96,28 @@ a {
   color: #ffffff;
 }
 
+.content-skill-flex {
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: #0072bb;
+  color: #ffffff;
+  display: flex;
+  gap: 25px;
+}
+
 .content-skill h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.content-skill-flex h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .content-skill img {
+  max-height: 200px;
+}
+.content-skill-flex img {
   max-height: 200px;
 }
 
@@ -140,4 +157,28 @@ a {
 
 .footer h2 {
   font-size: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 920px) {
+  .content {
+    width: 100%;
+    display: block;
+  }
+
+  .benefits {
+    float: none;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 200px;
+  }
+}
+
+.test {
+  box-sizing: border-box;
+  background-color: lightblue;
+  border: solid #000 5px;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
 }
