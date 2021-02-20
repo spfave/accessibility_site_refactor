@@ -99,29 +99,17 @@ a {
 .content-skill {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.content-skill:last-child {
-  margin-bottom: 0;
-}
-
-.content-skill-flex {
-  margin-bottom: 20px;
-  padding: 50px;
   background-color: #0072bb;
   color: #ffffff;
   display: flex;
   gap: 25px;
 }
 
-.content-skill h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+.content-skill:last-child {
+  margin-bottom: 0;
 }
-.content-skill-flex h2 {
+
+.content-skill h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -129,8 +117,9 @@ a {
 .content-skill img {
   max-height: 200px;
 }
-.content-skill-flex img {
-  max-height: 200px;
+
+.row-reverse {
+  flex-direction: row-reverse;
 }
 
 /* Benefits Section */
