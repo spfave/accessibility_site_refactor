@@ -38,7 +38,6 @@ a {
 }
 
 .header h1 {
-  /* display: inline-block; */
   font-size: 48px;
 }
 
@@ -48,7 +47,6 @@ a {
 
 .header nav {
   padding-top: 15px;
-  /* float: right; */
   font-size: 20px;
 }
 
